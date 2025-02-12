@@ -142,8 +142,8 @@ def QUBO_FS_classif_RF_1_vs_all(features, k, labels):
 import matplotlib.pyplot as plt
 
 results_all_features = classif_RF_1_vs_all(features, labels)
-results_random_fs = random_FS_classif_RF_1_vs_all(features, k=5, labels=labels)
-results_qubo_fs = QUBO_FS_classif_RF_1_vs_all(features, k=5, labels=labels)
+results_random_fs = random_FS_classif_RF_1_vs_all(features, k=5, labels)
+results_qubo_fs = QUBO_FS_classif_RF_1_vs_all(features, k=5, labels)
 
 comparison_data = {}
 
