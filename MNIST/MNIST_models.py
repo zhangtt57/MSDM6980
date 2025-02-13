@@ -172,7 +172,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import cross_val_score
 
-k = 5  
+k = 30  
 results = {
     'QFS': QUBO_FS(features, k, labels),
     'Logistic Reg. Ranking': LR_ranking_FS(features, k, labels),
